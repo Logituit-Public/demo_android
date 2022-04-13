@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MovieDBApp</string>
+
+    <string name="popular_movie_heading">Popular Movies</string>
+    <string name="upcoming_movie_heading">Upcoming Movies</string>
+    <string name="thumbnail_description">Thumbnail description</string>
+
+    <string name="added_to_favourite">Movie added to favourite</string>
+    <string name="removed_from_favourite">Movie removed from favourite</string>
+
+    <string name="something_went_wrong_message">Something Went Wrong</string>
+
+
+</resources>
