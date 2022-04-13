@@ -56,12 +56,12 @@ class MovieDetailViewFragment : BottomSheetDialogFragment() {
                 updateFavouriteDrawable(favouriteMovieViewModel.isMovieAddedToFavourite("" + movieDetails.id))
 
                 imgAddMovieToFavourite.setOnClickListener {
-                    val isFavourite = favouriteMovieViewModel.isMovieAddedToFavourite("" + it.id)
+                    val isFavourite = favouriteMovieViewModel.isMovieAddedToFavourite("" + movieDetails.id)
                     favouriteMovieViewModel.addMovieToFavourite(
-                        "" + it.id,
+                        "" + movieDetails.id,
                         !isFavourite
                     )
-                    updateFavouriteDrawable(favouriteMovieViewModel.isMovieAddedToFavourite("" + it.id))
+                    updateFavouriteDrawable(favouriteMovieViewModel.isMovieAddedToFavourite("" + movieDetails.id))
                 }
             }
         }
